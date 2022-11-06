@@ -29,7 +29,7 @@ with pcol[1]:
 with pcol[2]:
     years = st.slider('Year Span', 1800, 2022, (1800, 2022), step=10)
 with pcol[3]:
-    population = st.slider('Population', 1000, max_population, (10000, max_population), step=10000)
+    population = st.slider('Population', 1000, max_population, (10000, max_population), step=100000)
 with pcol[4]:
     income = st.multiselect('Current Income', df.income_groups.unique())
 
