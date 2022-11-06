@@ -76,4 +76,4 @@ fig.layout.updatemenus[0].buttons[0].args[1]['transition']['duration'] = 5
 
 st.plotly_chart(fig, use_container_width=True)
 
-st.write("full code can be found [here](https://github.com/justdataplease/wealth_and_health_of_nations).")
+st.write("full code can be found [here](https://github.com/justdataplease/wealth-and-health-of-nations).")
