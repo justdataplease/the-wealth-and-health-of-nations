@@ -68,8 +68,9 @@ fig.update_layout({
     )
 })
 
-fig.layout.updatemenus[0].buttons[0].args[1]['frame']['duration'] = 30
-fig.layout.updatemenus[0].buttons[0].args[1]['transition']['duration'] = 5
+# Make it faster
+# fig.layout.updatemenus[0].buttons[0].args[1]['frame']['duration'] = 130
+# fig.layout.updatemenus[0].buttons[0].args[1]['transition']['duration'] = 5
 
 # Export to html
 # fig.write_html("data.html")
