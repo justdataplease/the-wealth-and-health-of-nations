@@ -48,7 +48,7 @@ if income:
 
 fig = px.scatter(df, x='gdpPercap', y='lifeExp', color='region', size='population', size_max=130,
                  hover_name='country', log_x=True, animation_frame='year',
-                 animation_group='country', range_x=[300, 100000], range_y=[0, 115],
+                 animation_group='country', range_x=[300, 130000], range_y=[10, 115],
                  labels=dict(population="Population", gdpPercap="Income per person (GDP/capita, PPP$ inflation-adjusted)", lifeExp="Life Expectancy (Years)"))
 
 fig.update_layout({
